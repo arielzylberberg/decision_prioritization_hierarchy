@@ -1,0 +1,10 @@
+function [vCoh,vDir,correct_node] = set_trial(d,tree)
+% d = DotsClass(1);
+uni_coh = d.df{1}.cohSet;
+% uni_coh = 512;
+uni_dir = d.df{1}.dirSet;
+idx_coh = randsample(length(uni_coh),7,true);
+idx_dir = randsample(length(uni_dir),7,true);        
+vCoh = uni_coh(idx_coh);
+vDir = uni_dir(idx_dir);
+correct_node = find_correct_terminal(tree,vDir);
