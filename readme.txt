@@ -1,5 +1,4 @@
-This repository contains the data and code to reproduce the analyses in the manuscript "Decision prioritization and 
-causal reasoning in decision hierarchies" by Ariel Zylberberg.
+This repository contains the data and code to reproduce the analyses in the manuscript "Decision prioritization and causal reasoning in decision hierarchies" by Ariel Zylberberg.
 
 The main script to run the experiment is: 
 
